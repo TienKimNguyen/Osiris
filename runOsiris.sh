@@ -34,6 +34,9 @@ then
 elif [ "$py_version" = "3.4" ]
 then
     conda activate Osiris_py34
+elif [ "$py_version" = "3.11" ]
+then
+    conda activate Osiris_py311
 else 
     echo "$py_version"
     return 
